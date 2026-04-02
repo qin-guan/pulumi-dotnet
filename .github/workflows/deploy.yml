@@ -14,13 +14,13 @@ jobs:
     strategy:
       matrix:
         include:
-          - version: "8"
+          - version: "8.0"
             lts: "false"
-          - version: "9"
+          - version: "9.0"
             lts: "false"
-          - version: "10"
+          - version: "10.0"
             lts: "true"
-          - version: "11"
+          - version: "11.0"
             lts: "false"
 
     permissions:
