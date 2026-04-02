@@ -20,7 +20,7 @@ jobs:
             lts: "false"
           - version: "10.0"
             lts: "true"
-          - version: "11.0"
+          - version: "11.0-preview"
             lts: "false"
 
     permissions:
